@@ -28,14 +28,29 @@ nav {
 }
 
 .wrapper.welcome-text {
-    background-color: #f5c1df;
+   background-color: #f5c1df;
+   flex: 50%;
 }
 
 .wrapper.image-sidebar {
     background-color: #f5c1df;
-    padding: 5px;
+    flex: 50%; 
+}
+
+img {
+    width: 150px; 
+    margin-left: auto; 
+    margin-right: auto; 
 }
 
 p {
     font-family: 'Arial Narrow', sans-serif;
+}
+
+main {
+    display: flex; 
+}
+
+h2 {
+    text-align: center; 
 }
