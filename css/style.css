@@ -1,10 +1,41 @@
-
+body {
+    background-color: #fcbbd9; 
+}
 
 li {
-    display: inline; 
+    display: inline-block;
+    font-family: 'Arial Narrow', sans-serif
 }
 
 .header-wrapper {
     display: flex; 
-    align-items: right;  
+    align-items: center; 
+    justify-content: space-between;
+    text-align: center; 
+
+}
+
+h1 {
+    text-align: center;
+    width:75%; 
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #f5c1df;
+    padding: 15px; 
+}
+
+.wrapper.welcome-text {
+    background-color: #f5c1df;
+}
+
+.wrapper.image-sidebar {
+    background-color: #f5c1df;
+    padding: 5px;
+}
+
+p {
+    font-family: 'Arial Narrow', sans-serif;
 }
